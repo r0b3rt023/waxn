@@ -1,0 +1,45 @@
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media only screen and (max-width: 742px) {
+    .about-me-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-me-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.about-me .about-me-text {
+    text-align: justify;
+}
+
+.about-me-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.about-me-measurements h2 {
+    text-decoration: underline;
+}
+
+.about-me-measurements ul {
+    list-style: none;
+    line-height: 2em;
+    padding-left: 5px;
+}
+
+.about-me-measurements ul span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
