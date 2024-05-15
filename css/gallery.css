@@ -23,6 +23,15 @@
     cursor: pointer;
 }
 
+.image-item span {
+    font-family: 'Graffiti';
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: #8D14CA;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black,
+    2px 1px 5px #CA142D, -2px 1px 5px #CA142D;
+}
+
 .overlay {
     position: absolute;
     width: 100%;
